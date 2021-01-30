@@ -44,9 +44,6 @@ def main():
     #compare unknown to list of people. Prints name of matching person
     findUnknown(unknown, people, columns, reader)
 
-    file.close()
-    f.close()
-
 #Find number of longest repeats.
 def repeatFinder(strbase, sequence):
 
